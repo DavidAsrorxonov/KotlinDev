@@ -1,10 +1,8 @@
 fun main() {
-    val number = 10
 
     val intMaxValue = Int.MAX_VALUE
     val intMinValue = Int.MIN_VALUE
 
-    println("Hello, your age is $number")
     println("Integer Max: $intMaxValue")
     println("Integer Min: $intMinValue")
 
@@ -23,4 +21,6 @@ fun main() {
     val longMinValue: Long = Long.MIN_VALUE
     println("Long Max: $longMaxValue")
     println("Long Min: $longMinValue")
+
+    val number = 28L
 }
